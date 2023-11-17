@@ -19,9 +19,9 @@ public class StudentTest implements Comparable<StudentTest> {
 	
 @Override
 	public int compareTo(StudentTest s) {
-		if(age==s.age)  
+		if(rollno==s.rollno)  
 			return 0;  
-			else if(age>s.age)  
+			else if(rollno>s.rollno)  
 			return 1;  
 			else  
 			return -1;  
